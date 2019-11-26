@@ -1,5 +1,4 @@
-FROM ubuntu:15.04
-MAINTAINER Maciej Swinarski, mswinarski@atlassian.com
+FROM ubuntu:18.04
 RUN echo "Atlassian applications runtime environment"
 RUN apt-get update
 RUN apt-get install -y software-properties-common
